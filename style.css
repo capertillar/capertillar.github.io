@@ -119,3 +119,6 @@ fix3:hover {
     overflow: hidden;
     margin: 20px
 }
+
+a:link, a:visited {color:#e2f046; font-weight:bold; text-decoration:none}
+a:hover {color:#ffe01c}
