@@ -1,5 +1,8 @@
 body {
-    background: #ee8b00
+    background: #ee8b00;
+    color: #fff;
+    font-family: "helvetica neue";
+    helvetica, arial, "sans serif"
 }
 #nav {
     width: 100%;
@@ -117,6 +120,11 @@ fix3:hover {
     width: 175px;
     height: 175px;
     overflow: hidden;
+    margin: 20px
+}
+
+.cover {
+    height: 320px;
     margin: 20px
 }
 
