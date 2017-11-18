@@ -121,7 +121,7 @@ fix3:hover {
     height: 175px;
     overflow: hidden;
     margin: 20px;
-    float:left;
+    display:inline-block;
 }
 
 .cover {
@@ -135,7 +135,6 @@ a:hover {color:#ffe01c}
 .lightbox-target {
 position: fixed;
 top: -100%;
-margin-left:0px;
 width: 100%;
 background: rgba(0,0,0,.7);
 width: 100%;
@@ -147,6 +146,7 @@ transition: opacity .5s ease-in-out;
 overflow: hidden;
 font-weight:bold;
 font-size:14pt;
+margin-left:-8px
 }
 
 .lightbox-target img {
