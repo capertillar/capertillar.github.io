@@ -135,6 +135,7 @@ a:hover {color:#ffe01c}
 .lightbox-target {
 position: fixed;
 top: -100%;
+margin-left:0px;
 width: 100%;
 background: rgba(0,0,0,.7);
 width: 100%;
