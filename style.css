@@ -134,12 +134,11 @@ a:hover {color:#ffe01c}
 
 .lightbox-target {
 position: fixed;
-top: -100% !important;
-left:0px;
+top: -100%;
 width: 100%;
 background: rgba(0,0,0,.7);
 width: 100%;
-opacity: 0 !important;
+opacity: 0;
 -webkit-transition: opacity .5s ease-in-out;
 -moz-transition: opacity .5s ease-in-out;
 -o-transition: opacity .5s ease-in-out;
